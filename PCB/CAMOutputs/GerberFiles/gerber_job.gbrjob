@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-02-27T05:56:45Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "H&M_CD"
+        },
+        "Owner": "Mohamed Ayoub <mohamedmagdy.ayoub@jacks.sdstate.edu>",
+        "Size": {
+            "X": 113.01,
+            "Y": 75.87
+        }
+    }
+}
