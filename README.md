@@ -1,2 +1,2 @@
-# H-M-Configuration-Dongle
+# Windows Network Config Dongle
 Code Deploy
