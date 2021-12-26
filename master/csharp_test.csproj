@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>icon1_vUJ_icon.ico</ApplicationIcon>
+    <StartupObject>testProgram.MainClass</StartupObject>
+    <Win32Resource />
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>C:\Users\mmaay\South Dakota State University - SDSU\Daktronics Senior Design - Documents\Code\csharp_test\Backup3\</UpgradeBackupLocation>
+    <OldToolsVersion>Current</OldToolsVersion>
+    <AssemblyName>H&amp;M_C#_APP</AssemblyName>
+    <Copyright />
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <SignAssembly>false</SignAssembly>
+    <Authors>Mohamed Ayoub</Authors>
+    <Company>South Dakota State University</Company>
+    <DelaySign>true</DelaySign>
+    <Description>H&amp;M Configuration Dongle - Windows Application</Description>
+    <ApplicationManifest>XMLSchema1.manifest</ApplicationManifest>
+    <AssemblyOriginatorKeyFile>MMA.snk</AssemblyOriginatorKeyFile>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>H&amp;M_csharp_test</PackageId>
+    <RootNamespace>H&amp;M_C#_APP</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.IO.Ports" Version="4.7.0" />
+    <PackageReference Include="System.Management" Version="4.7.0" />
+  </ItemGroup>
+</Project>
